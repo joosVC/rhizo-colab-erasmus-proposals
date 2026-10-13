@@ -1,0 +1,4 @@
+interface:
+  display_name: "Erasmus+ startinterview"
+  short_description: "Verken je schoolvraag en bepaal de volgende stap"
+  default_prompt: "Gebruik $erasmus-startinterview om mijn eerste idee voor een Europees samenwerkingsproject te verkennen. Ik spreek mijn antwoorden graag in."

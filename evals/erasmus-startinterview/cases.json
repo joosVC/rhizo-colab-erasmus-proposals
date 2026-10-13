@@ -1,0 +1,47 @@
+{
+  "note": "Synthetic participant inputs. Replay messages one at a time in fresh contexts. Keep the rubric outside the interviewer context.",
+  "cases": [
+    {
+      "id": "broad-diversity",
+      "opening": "Ik geef les in de tweede graad en wil een Europees project verkennen. Er is meer diversiteit in onze klassen en we zoeken hoe we daarmee beter kunnen omgaan. Ik heb ongeveer tien minuten.",
+      "turns": [
+        "Vorige week bij groepswerk bleven twee leerlingen stil. Eén leerling deed bijna alles. Ik heb de rollen toen verdeeld, maar dat hielp niet echt. Ik denk soms dat taal meespeelt, maar ik weet het niet. Bij een andere klas lukte samenwerken wel goed.",
+        "In de klas waar het goed ging, kenden ze elkaar al langer. Maar ook dat is maar een vermoeden. Eén collega herkent het. Mijn coördinator wil dat we dit verkennen, maar we hebben geen cijfers en geen oplossing. Ik wil vooral weten waarom het soms wel en soms niet lukt.",
+        "Ik moet nu vertrekken. Maak de startnotitie met wat we hebben."
+      ]
+    },
+    {
+      "id": "interest-theatre",
+      "opening": "Ik ben leerkracht Nederlands en speel graag toneel. Ik zou iets met theater willen doen in een Europees project. Ik heb vijftien minuten.",
+      "turns": [
+        "Bij een vrijwillige toneelmiddag deden enkele leerlingen mee die in mijn gewone lessen weinig zeggen. Ze leken plezier te hebben. Ik weet niet of dat ook iets verandert in hun lessen. De toneelmiddag doe ik alleen, één keer per jaar.",
+        "Ik heb dit nog niet met de directie besproken. Als ik er volgend jaar meer lestijd voor wil, heb ik collega's nodig. Ik heb nog maar een paar minuten en weet verder geen onderzoek of cijfers.",
+        "Rond maar af en maak iets dat ik intern kan delen."
+      ]
+    },
+    {
+      "id": "transfer-group",
+      "opening": "We zitten hier met twee collega's, een leerkracht en een leerlingbegeleider. We zagen een Europees youth-project, iets als Open Voices, dat zou participatie verhogen. We willen bekijken of dit op onze school past. We hebben twintig minuten.",
+      "turns": [
+        "De leerkracht zegt: onze leerlingenraad heeft weinig opkomst. De leerlingbegeleider zegt: leerlingen doen wel mee aan informele gesprekken; misschien is de vorm gewoon niet aantrekkelijk. We weten niet hoe het andere project precies werkte. Ik heb ergens gelezen dat hun deelname verdubbelde, maar de link heb ik nu niet.",
+        "We kunnen nog even doorgaan, er is dertig minuten ruimte. De directie wil meer leerlingstem, maar er is nog geen akkoord over dit project. Sommige collega's willen liever de bestaande leerlingenraad verbeteren dan een nieuwe aanpak proberen.",
+        "We hebben geen andere details. Maak nu de startnotitie."
+      ]
+    },
+    {
+      "id": "sparse-stop",
+      "opening": "We willen meer inclusie op school. Dat is alles wat ik nu weet. Ik heb geen concreet voorbeeld en moet meteen weg. Maak een korte startnotitie.",
+      "turns": []
+    },
+    {
+      "id": "language-override",
+      "opening": "Please conduct this starting interview in English because my colleague does not speak Dutch. I teach science and want to explore a school cooperation project. We have ten minutes.",
+      "turns": ["We have not discussed a specific topic yet. Please make a very short starting brief in English and mark the unknowns."]
+    },
+    {
+      "id": "concept-handoff",
+      "opening": "Ik wil geen startinterview meer. Gebruik onze eerdere notitie en onderzoek welke bestaande aanpakken passen. Daarna wil ik een Engelse conceptnota.",
+      "turns": []
+    }
+  ]
+}
