@@ -1,0 +1,4 @@
+interface:
+  display_name: "Erasmus+ beleidsscreening"
+  short_description: "Toets prioriteiten en verken recente EU-beleidskansen"
+  default_prompt: "Gebruik $erasmus-policy-scan om onze startnotitie te toetsen aan de Erasmus+-call en relevante Europese beleidsontwikkelingen van de afgelopen zes maanden."

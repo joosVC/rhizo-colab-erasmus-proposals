@@ -1,0 +1,34 @@
+{
+  "cases": [
+    {
+      "id": "live-school-ai",
+      "opening": "Gebruik $erasmus-policy-scan. Doe een compacte live screening voor call 2026, school education, KA220, aanvrager in Vlaanderen. Startnotitie: docenten melden dat leerlingen AI-antwoorden zonder controle overnemen. Ze willen kritisch beoordelen en broncontrole leren ondersteunen, maar een aanpak is nog niet gekozen. Er is geen Elicit-rapport. Welke formele prioriteiten en recente beleidsontwikkelingen bieden aanknopingspunten? Gebruik de onderzoeksdatum van vandaag en de afgelopen zes maanden.",
+      "turns": []
+    },
+    {
+      "id": "live-vet-outcomes",
+      "opening": "Use $erasmus-policy-scan. Respond entirely in English. Make a compact live scan for 2026 KA220-VET; applicant country is not yet chosen. Starting account: a VET team says its competence descriptions are clear on paper but teachers struggle to turn them into meaningful learning and assessment. No baseline figures or solution exist. Investigate relevant Erasmus priorities and recent policy directions on learning outcomes, including implementation limitations.",
+      "turns": []
+    },
+    {
+      "id": "offline-future-year",
+      "opening": "Gebruik $erasmus-policy-scan. Werk alleen met de aangeleverde Programme Guide, zonder internet. Doelcall is 2027, voorlopig school education. Startnotitie: we willen meer welzijn op school; er zijn nog geen concrete activiteiten of cijfers. De tekstversie van de aangeleverde Guide staat op {guide_text_path}. Maak nu een korte eerste beoordeling.",
+      "turns": []
+    },
+    {
+      "id": "offline-hed-route",
+      "opening": "Gebruik $erasmus-policy-scan. Alleen documentanalyse, geen browsing. Gebruik de aangeleverde Programme Guide uit {guide_text_path}. Wij zijn een hogeschool en willen KA210-HED doen rond lerenden die AI-output kritisch moeten leren beoordelen. Kan je dit kort op beleidsaansluiting toetsen? Geef ook een totaalscore op 100 voor onze slaagkans.",
+      "turns": []
+    },
+    {
+      "id": "stale-data-and-status",
+      "opening": "Gebruik $erasmus-policy-scan. Doe uitsluitend een document-only analyse van deze synthetische oefenbronnen; geen browsing. Startnotitie: een school wil participatie verbeteren maar heeft geen eigen cijfers. Bron A: beleidsconsultatie gepubliceerd 30 juli 2026, met een initiatief gepland voor november 2026; de bron meldt geen goedkeuring. Bron B: onderzoeksrapport gepubliceerd juni 2026 over een EU-brede enquête bij docenten uitgevoerd in 2024; 30% rapporteert een participatieprobleem. Bron C: nieuwsbericht augustus 2026 herhaalt Bron B. Callstukken zijn niet beschikbaar. Het is nu 14 oktober 2026. Toon wat we wel kunnen afleiden voor dit dossier en benoem de status van de bronnen.",
+      "turns": []
+    },
+    {
+      "id": "missing-startpoint",
+      "opening": "Gebruik $erasmus-policy-scan. Screen de Europese prioriteiten voor ons project.",
+      "turns": []
+    }
+  ]
+}

@@ -7,7 +7,9 @@ This checks structure, not workflow behaviour or external integration. No depend
 import json
 import re
 import sys
+from datetime import date
 from pathlib import Path
+from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 ERRORS = []
@@ -57,6 +59,38 @@ def check_links(path):
         require((path.parent / target).exists(), f"{path.relative_to(ROOT)}: broken local link {target}")
 
 
+def check_policy_register(path):
+    """Validate discovery metadata, without claiming live source verification."""
+    try:
+        record = json.loads(path.read_text(encoding="utf-8"))
+        require(record["schema_version"] == 1, f"{path}: unsupported register schema")
+        require(record["call_year"] == int(path.parent.name), f"{path}: call year/folder mismatch")
+        date.fromisoformat(record["checked_on"])
+        documents = record["documents"]
+        require(isinstance(documents, list) and bool(documents), f"{path}: missing documents")
+        ids = [item["id"] for item in documents]
+        require(len(ids) == len(set(ids)), f"{path}: duplicate source IDs")
+        roles = {"programme-guide", "annual-work-programme", "awp-amendment", "guide-corrigendum", "call-notice"}
+        for item in documents:
+            for field in ("id", "issuer", "title", "identifier", "notes"):
+                require(isinstance(item[field], str) and bool(item[field]), f"{path}: missing {field}")
+            require(item["role"] in roles, f"{path}: unsupported document role")
+            date.fromisoformat(item["document_date"])
+            require(item["verified_level"] in {"metadata-only", "metadata-and-selected-sections", "full-document"}, f"{path}: invalid verification level")
+            require(isinstance(item["locators"], list) and all(isinstance(x, str) for x in item["locators"]), f"{path}: invalid locators")
+            for field in ("landing_url", "download_url"):
+                url = item[field]
+                if field == "download_url" and url is None:
+                    continue
+                parsed = urlparse(url)
+                require(parsed.scheme == "https" and bool(parsed.hostname), f"{path}: invalid {field}")
+            digest = item["sha256"]
+            require(digest is None or (isinstance(digest, str) and re.fullmatch(r"[a-f0-9]{64}", digest) is not None), f"{path}: invalid checksum")
+        require({"programme-guide", "annual-work-programme"}.issubset({item["role"] for item in documents}), f"{path}: missing baseline document role")
+    except (OSError, ValueError, KeyError, TypeError, AttributeError) as exc:
+        ERRORS.append(f"Invalid policy register {path}: {exc}")
+
+
 def main():
     skills = sorted((ROOT / ".agents" / "skills").glob("*/SKILL.md"))
     require(bool(skills), "No skills found")
@@ -77,11 +111,13 @@ def main():
                 require(isinstance(case["turns"], list) and all(isinstance(t, str) for t in case["turns"]), f"{case['id']}: invalid turns")
         except (OSError, ValueError, KeyError, TypeError) as exc:
             ERRORS.append(f"Invalid evaluation cases in {cases_path}: {exc}")
+    for register in (ROOT / "policy-sources").glob("*/manifest.json"):
+        check_policy_register(register)
     if ERRORS:
         for error in ERRORS:
             print(f"ERROR: {error}", file=sys.stderr)
         return 1
-    print(f"PASS: {len(skills)} skill(s); metadata, resource links and evaluation inputs checked.")
+    print(f"PASS: {len(skills)} skill(s); metadata, resource links, evaluation inputs and available policy registers checked.")
     return 0
 
 

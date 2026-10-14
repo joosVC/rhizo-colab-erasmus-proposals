@@ -1,6 +1,6 @@
 # RHIZO — Erasmus+ projectontwikkeling
 
-Een gezamenlijke bron voor skills die collega's helpen Europese projecten te ontwikkelen. Het startinterview verzamelt de praktijkvraag; de tweede skill bereidt de wetenschappelijke verkenning voor. De uitwerking richt zich voorlopig op KA2.
+Een gezamenlijke bron voor skills die collega's helpen Europese projecten te ontwikkelen. Het startinterview verzamelt de praktijkvraag, de Elicit-skill bereidt wetenschappelijk onderzoek voor en de beleidsskill onderzoekt callaansluiting en Europese beleidskansen. De uitwerking richt zich voorlopig op KA2.
 
 ## Ontwikkelroute voor KA2
 
@@ -8,7 +8,7 @@ Een gezamenlijke bron voor skills die collega's helpen Europese projecten te ont
 | --- | --- | --- |
 | Startinterview | Deelbare startnotitie, bekende informatie en open vragen | Skill beschikbaar |
 | Wetenschappelijke verkenning | Engelse Elicit-opdracht → door gebruiker uitgevoerd onderzoeksrapport | Promptskill beschikbaar; uitvoering in Elicit |
-| Europese beleidsscreening | Relevante behoeften, cijfers, aanbevelingen en prioriteiten | Later uit te werken |
+| Europese beleidsscreening | Onderbouwd beleidsrapport met callaansluiting, kansen en hiaten | Browsende skill beschikbaar |
 | Keuzegesprek | Gezamenlijk gekozen projectrichting | Met Joos en projecteigenaar |
 | Voorlopige Theory of Change | Veranderlogica, voorwaarden en aannames | Later uit te werken |
 | PRP-screening | Overlap, aanvullingen en relevante expertise/partners | Na de voorlopige ToC |
@@ -43,13 +43,27 @@ Voeg de startnotitie toe of geef de inhoud mee. Plak de gegenereerde prompt in E
 
 De [prompttemplate](.agents/skills/erasmus-elicit-brief/assets/elicit-prompt-template.en.md), het [onderzoeksprotocol](.agents/skills/erasmus-elicit-brief/references/research-protocol.md) en de [overdracht naar Elicit](.agents/skills/erasmus-elicit-brief/references/elicit-handoff.md) beschrijven de aanpak. [Evaluatiecriteria](evals/erasmus-elicit-brief/rubric.md) en [validatie](evals/erasmus-elicit-brief/validation.md) beschrijven de controles. Een echt Elicit-rapport is nog nodig om te toetsen hoe goed de onderzoeksopdracht daar wordt gevolgd.
 
+## Derde skill: Europese beleidsscreening
+
+[Beleidsscreening](.agents/skills/erasmus-policy-scan/SKILL.md) onderzoekt zelf de formele Erasmus+-prioriteiten én recente beleidsontwikkelingen voor school education, VET of higher education. Input: startnotitie, eventuele gerichte vragen, optioneel het Elicit-rapport en calljaar/domein/aanvragersland voor zover bekend. Een oplossing of ToC is geen toegangseis.
+
+Start bijvoorbeeld met:
+
+> Gebruik $erasmus-policy-scan. Hier is onze startnotitie. Doe een beleidsscreening voor call 2026, school education, aanvrager in Vlaanderen. Onderzoek relevante ontwikkelingen van de afgelopen zes maanden. Een Elicit-rapport hebben we nog niet.
+
+Output: een Engels rapport met Nederlandse beslissamenvatting, prioriteitenmatrix, enkele onderbouwde beleidskansen, relevante cijfers, open vragen en traceerbare bronnen. Expliciete taalkeuzes gaan voor. De skill geeft afzonderlijke fitbeoordelingen met argumenten en onzekerheid, geen financieringskans of totaalscore.
+
+Voor een live scan is browsing nodig. Zonder browsing doet de skill een duidelijk gemarkeerde documentanalyse. Voor een nog niet verschenen calljaar gebruikt ze een expliciet voorlopige eerdere baseline. Ze voert geen PRP-screening uit en schrijft geen Theory of Change.
+
+De [bronregisters per calljaar](policy-sources/README.md) staan los van de instructies. De 2026-baseline verwijst naar de Guide, het oorspronkelijke AWP en de wijziging van april met vervangende bijlage. Metadata en geselecteerde passages zijn gecontroleerd; elke screening leest de relevante tekst opnieuw en controleert latere wijzigingen. De [bronregels](.agents/skills/erasmus-policy-scan/references/source-protocol.md), [rapporttemplate](.agents/skills/erasmus-policy-scan/assets/policy-report-template.en.md) en [validatienotitie](evals/erasmus-policy-scan/validation.md) beschrijven de aanpak en haar grenzen.
+
 ## Taalkeuze
 
-De skillinstructies en methodische referenties zijn Engels. De gesprekken met docenten en startnotitie zijn standaard Nederlands; de onderzoeksopdracht voor Elicit is Engels. De latere conceptnota's en extended concept notes worden Engels; die vervolgskills zijn nog niet gebouwd. Expliciete taalkeuzes gaan voor deze defaults.
+De skillinstructies en methodische referenties zijn Engels. De gesprekken met docenten en startnotitie zijn standaard Nederlands; de Elicit-opdracht en het beleidsrapport zijn Engels. Het beleidsrapport begint met een Nederlandse beslissamenvatting. De latere conceptnota's en extended concept notes worden Engels; die vervolgskills zijn nog niet gebouwd. Expliciete taalkeuzes gaan voor deze defaults.
 
 ## Gebruik
 
-Open deze repository in een Codex-omgeving die lokale skills ondersteunt. Beide skills staan onder `.agents/skills/`.
+Open deze repository in een Codex-omgeving die lokale skills ondersteunt. Alle drie de skills staan onder `.agents/skills/`.
 
 Start bijvoorbeeld met:
 

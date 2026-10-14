@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "call_year": 2026,
+  "checked_on": "2026-10-14",
+  "purpose": "Discovery metadata; reverify and read relevant text during each scan. Not an archived corpus or assurance of operative amendment coverage.",
+  "documents": [
+    {
+      "id": "guide-2026-v1",
+      "role": "programme-guide",
+      "issuer": "European Commission",
+      "title": "Erasmus+ Programme Guide 2026",
+      "identifier": "Version 1, 12 November 2025",
+      "document_date": "2025-11-12",
+      "landing_url": "https://erasmus-plus.ec.europa.eu/erasmus-programme-guide",
+      "download_url": "https://erasmus-plus.ec.europa.eu/sites/default/files/2025-11/programme-guide-2026_en.pdf",
+      "sha256": null,
+      "verified_level": "metadata-and-selected-sections",
+      "locators": ["Part B: Partnerships for cooperation, horizontal and sector-specific priorities", "Part B: Cooperation partnerships, action scope and relevance", "Part B: Small-scale partnerships, field scope and priorities"],
+      "notes": "Recheck current version/corrigenda. Extract official labels and applicable clauses from the document; no hardcoded thematic priority list."
+    },
+    {
+      "id": "awp-2026-original",
+      "role": "annual-work-programme",
+      "issuer": "European Commission",
+      "title": "2026 annual work programme for the implementation of Erasmus+",
+      "identifier": "Annex to C(2025) 7358 final",
+      "document_date": "2025-11-05",
+      "landing_url": "https://erasmus-plus.ec.europa.eu/resources-and-tools/documents-and-guidelines/2026-annual-work-programme-for-the-implementation-of-erasmus-the-union-programme-for-education-training-youth-and-sport",
+      "download_url": "https://erasmus-plus.ec.europa.eu/sites/default/files/2025-11/awp-erasmus-oct-2026_en.PDF",
+      "sha256": null,
+      "verified_level": "metadata-and-selected-sections",
+      "locators": ["Part I: Erasmus+ in 2026, policy framework", "Relevant KA2 programme/action sections"],
+      "notes": "Original baseline, not a claim of fully current consolidated text. Inspect the registered amendment and any later changes before operative AWP conclusions."
+    },
+    {
+      "id": "awp-2026-amendment-20260410",
+      "role": "awp-amendment",
+      "issuer": "European Commission",
+      "title": "Amendment of 2026 annual work programme for the implementation of Erasmus+",
+      "identifier": "C(2026)2250 of 10 April 2026",
+      "document_date": "2026-04-10",
+      "landing_url": "https://erasmus-plus.ec.europa.eu/resources-and-tools/documents-and-guidelines/amendment-of-2026-annual-work-programme-for-the-implementation-of-erasmus",
+      "download_url": "https://erasmus-plus.ec.europa.eu/sites/default/files/2026-04/awp-amendment-C-2026-2250-10.04.26_en.pdf",
+      "sha256": null,
+      "verified_level": "metadata-and-selected-sections",
+      "locators": ["Decision, Sole article (2): replacement of the Annex", "Replacement Annex, Part I policy framework and VET passages", "Replacement Annex, cooperation/small-scale partnership sections"],
+      "notes": "Official amendment PDF retrieved and selected text inspected on checked_on. The sole article replaces the original Annex. Use the replacement text for operative AWP conclusions; still verify relevant passages and later amendments at execution. Source bytes are not archived here."
+    }
+  ]
+}
