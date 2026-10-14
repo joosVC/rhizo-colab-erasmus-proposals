@@ -1,0 +1,4 @@
+interface:
+  display_name: "Elicit onderzoeksopdracht"
+  short_description: "Maak van je startnotitie een Elicit-onderzoeksopdracht"
+  default_prompt: "Gebruik $erasmus-elicit-brief om mijn startnotitie en gerichte vragen te vertalen naar een Engelse onderzoeksopdracht voor Elicit."

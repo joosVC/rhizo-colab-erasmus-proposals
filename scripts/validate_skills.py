@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Check the repository's deliberately minimal skill format and local references.
 
-This checks structure, not interview behaviour or voice integration. No dependencies.
+This checks structure, not workflow behaviour or external integration. No dependencies.
 """
 
 import json
@@ -65,16 +65,18 @@ def main():
     for path in ROOT.rglob("*.md"):
         if ".git" not in path.parts:
             check_links(path)
-    cases_path = ROOT / "evals" / "erasmus-startinterview" / "cases.json"
-    try:
-        cases = json.loads(cases_path.read_text(encoding="utf-8"))["cases"]
-        ids = [case["id"] for case in cases]
-        require(len(ids) == len(set(ids)), "Duplicate evaluation case IDs")
-        for case in cases:
-            require(isinstance(case["opening"], str) and bool(case["opening"]), f"{case['id']}: missing opening")
-            require(isinstance(case["turns"], list) and all(isinstance(t, str) for t in case["turns"]), f"{case['id']}: invalid turns")
-    except (OSError, ValueError, KeyError, TypeError) as exc:
-        ERRORS.append(f"Invalid evaluation cases: {exc}")
+    for skill in skills:
+        cases_path = ROOT / "evals" / skill.parent.name / "cases.json"
+        try:
+            cases = json.loads(cases_path.read_text(encoding="utf-8"))["cases"]
+            ids = [case["id"] for case in cases]
+            require(bool(cases), f"{cases_path}: empty evaluation cases")
+            require(len(ids) == len(set(ids)), f"{cases_path}: duplicate evaluation case IDs")
+            for case in cases:
+                require(isinstance(case["opening"], str) and bool(case["opening"]), f"{case['id']}: missing opening")
+                require(isinstance(case["turns"], list) and all(isinstance(t, str) for t in case["turns"]), f"{case['id']}: invalid turns")
+        except (OSError, ValueError, KeyError, TypeError) as exc:
+            ERRORS.append(f"Invalid evaluation cases in {cases_path}: {exc}")
     if ERRORS:
         for error in ERRORS:
             print(f"ERROR: {error}", file=sys.stderr)

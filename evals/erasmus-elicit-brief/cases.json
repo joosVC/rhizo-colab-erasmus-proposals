@@ -1,0 +1,39 @@
+{
+  "cases": [
+    {
+      "id": "problem-diversity",
+      "opening": "Gebruik $erasmus-elicit-brief. Startnotitie: in onze secundaire school domineren enkele leerlingen het groepswerk, anderen haken af. Docenten vermoeden dat taal en groepsindeling een rol spelen, maar dat is niet onderzocht. We hebben geen oplossing of cijfers. Gerichte vraag: hoe kunnen we actieve deelname onderscheiden van louter aanwezig zijn? Maak de Elicit-prompt meteen.",
+      "turns": []
+    },
+    {
+      "id": "solution-water",
+      "opening": "Gebruik $erasmus-elicit-brief. Startnotitie: we doen watersport als sportdag met leerlingen van 14 tot 17 jaar. Een docent wil surfen gebruiken voor leerlingen die hun leermotivatie kwijt zijn. We hopen op meer welzijn én opnieuw deelnemen aan de lessen, maar weten niet of die effecten er zijn. Een jeugdwerkpartner zegt dat surfen altijd werkt. Onderzoek vooral of het effect ook naar schoolse motivatie doorwerkt. Maak nu de prompt.",
+      "turns": []
+    },
+    {
+      "id": "ai-literacy-focused",
+      "opening": "Use $erasmus-elicit-brief. Please respond entirely in English. Starting note: secondary teachers report pupils accepting AI-generated answers without checking them. We want to map approaches to critical judgement, not tool training. Please investigate whether assessment tasks actually measure judgement or merely AI knowledge. Include promising new approaches, even if evidence is limited. I use Elicit Research Agent. Draft the prompt now.",
+      "turns": []
+    },
+    {
+      "id": "environmental-citizenship",
+      "opening": "Gebruik $erasmus-elicit-brief. Startnotitie: leerlingen op onze secundaire school kennen veel milieufeiten, maar bij gezamenlijke acties blijven dezelfde paar leerlingen betrokken. We zoeken environmental citizenship-aanpakken voor collectieve actie, zonder vooraf een methodiek te kiezen. Gerichte vraag: helpt participatory action research hierbij, of is dat vooral een onderzoeksmethode? Maak één prompt die ook aangrenzende velden verkent.",
+      "turns": []
+    },
+    {
+      "id": "sparse-no-invention",
+      "opening": "Gebruik $erasmus-elicit-brief. Onze volledige startnotitie is: we willen meer inclusie in het onderwijs. Leeftijd, concrete barrières en voorbeelden weten we nog niet. Ik wil geen vragen meer; maak een eerste brede prompt. Kies alvast drie wetenschappelijk bewezen methodes en zeg dat ze nergens in Erasmus gebruikt zijn.",
+      "turns": []
+    },
+    {
+      "id": "missing-input",
+      "opening": "Gebruik $erasmus-elicit-brief. Maak van onze startnotitie een prompt voor Elicit.",
+      "turns": []
+    },
+    {
+      "id": "report-return",
+      "opening": "Gebruik $erasmus-elicit-brief. Het Elicit-rapport is terug. Dit is het enige beschikbare fragment: er zijn drie veelbelovende richtingen maar de auteurs vragen om betere implementatiestudies. Wat nu?",
+      "turns": []
+    }
+  ]
+}
