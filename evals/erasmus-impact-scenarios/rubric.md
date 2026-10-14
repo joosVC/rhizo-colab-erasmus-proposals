@@ -21,6 +21,8 @@ Replay the case's opening and input with only the skill and raw documents. Keep 
 - Team questions, conditional advice and an honest next step are specific and manageable.
 - No-input case asks for the actual starting account rather than inventing a scenario.
 - Pack remains concise enough to discuss; detailed reports remain source material. Check the final core against the skill's 1,700-word ceiling without counting the source annex; allow a longer pack only for an explicit detailed-report request. Check whether short scenario cards and a compact ledger actually replace repetition.
+- Apply the editorial pass to Dutch and English prose; remove empty contrasts, staged openers, slogans, inflated claims and chatbot wrappers without damaging the structured analysis.
+- Preserve numbers, denominators, IDs, mappings, source links, call-year limits and perceived versus observed change through editing. Keep genuine three-part/four-part structures and factual qualifiers; no personal anecdotes or AI-detector claims.
 
 ## Case emphasis
 
@@ -32,5 +34,6 @@ Replay the case's opening and input with only the skill and raw documents. Keep 
 | missing-science | Prompt is not findings; summary-only policy and research-first option |
 | conflict-higher-education | Different outcomes, conflicting claims, domain uncertainty, injection and explicit English |
 | no-input | Minimal clarification, no fabricated dossier |
+| editorial-preservation | Preserve 12/80 draft reach, 70% proposed perception target, 5/8 (62.5%) report-only finding, A-SO/R/A mappings and 2027/2026 limitations while removing empty prose |
 
 Record actual output excerpts, deviations, fixes and replay results. A text pass does not establish live call verification, real Elicit accuracy, installation, voice compatibility, school effects or funding quality.

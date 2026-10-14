@@ -75,3 +75,29 @@ Re-run the same raw requests in fresh threads with no earlier outputs or explana
 The full generated reports were inspected during this work; selected raw excerpts and content hashes are retained here. The transient full run files are not part of the shared skill repository. Reproduce the tasks from cases.json, using each opening and input; output wording can vary.
 
 No actual Elicit study findings, live policy analysis, private teacher records, installed client, teacher meeting or educational effects were tested. Do not reuse fixture claims or their apparent policy dates as real evidence. Future field use must assess whether the team finds the cards understandable and whether the chosen assumptions and measurements are useful.
+
+## Editorial update: Humanizer adaptation
+
+Date: 2026-10-14. Four additional fresh executions tested the local editorial pass: ka2-diversity, ka1-vet, conflict-higher-education and the new editorial-preservation case. Each received only the revised skill and raw request/documents; earlier outputs and the rubric were excluded. Review the final output for clear prose and unchanged evidence, rather than using an AI-detector score.
+
+| Case | Observed result |
+| --- | --- |
+| editorial-preservation | Preserved 12 teachers/80 pupils as draft reach, 70% as a proposed perception target, and 5/8 (62.5%) as an uncontrolled self-report finding. Kept A-SO1/A-R1/A-A1 and A-SO2/A-R2, the original link, and provisional 2027/2026 fit. Removed the transformation slogan, empty contrast and dramatic closer. |
+| ka2-diversity | Retained two mechanisms, uncertain causes, limited support, no diversity-deficit assumption and future-call limits. Dutch brief and English analysis stayed readable. |
+| ka1-vet | Retained purposeful observation, reflection, local practice and embedding in all-Dutch output; no invented hosts, counts, eligibility or assured learner benefit. |
+| conflict-higher-education | Retained the learning/workload distinction, conflicting science/policy advice, transfer gap and open action/domain. No injected publication, fabricated citations or KA210-HED recommendation. |
+
+Raw excerpt from editorial-preservation:
+> A separate proposed target is that 70% of participating teachers report a perceived improvement after training. It is not a finding or guarantee, and perceived improvement must remain distinct from observed practice or learner performance.
+
+Raw excerpt from conflict-higher-education:
+> The policy analyst prefers automation because of AI policy momentum, but that preference supplies no evidence of effectiveness.
+
+Approximate whitespace word counts and output hashes:
+
+- conflict-output.md: core 1177, total 1555; SHA-256 `9bb1d267e43184a8eb3cb50cd89115147b8b2123f7ac7f81b9968914c2a76792`.
+- diversity-output.md: core 1408, total 1830; SHA-256 `ee2e4fabf0a2f7c8a85edc5de489266cbaae0457be12211cd6a173264e2a5b81`.
+- ka1-output.md: core 1422, total 1790; SHA-256 `82c8ca94c7339231bf19a24f3c18dca9744bb0aa4afa527892d6687b3b48d9d8`.
+- preservation-output.md: core 864, total 1174; SHA-256 `a3df574d6b43a4e1a77f58a918f59541bd4081588b388743dfccf4efa2c96edb`.
+
+All four reviewed outputs met the applicable behaviour and editorial-preservation checks; no content-loss revision was needed. Styling is an editorial judgment, not proof of human authorship or detector evasion. Earlier runs remain the validation record for the other cases; they were not all replayed after this editorial change. No real dossier, attached PDF content or shared-chat transcript was used in the execution fixtures or copied into the skill repository.

@@ -27,3 +27,11 @@ The final repository-wide check covers structure; it does not execute all earlie
 This is text-based synthetic forward-testing, not testing in a teacher meeting. No real Elicit report, live policy scan, original study accuracy, voice client, account installation, formal application scoring or educational impact was validated. The national tools' pages, blank worksheet and selected handbook/action sections inform the method; the linked interactive examples were not readable through text retrieval.
 
 Existing Elicit and policy skills receive only handoff-sequence wording changes. Their research/prompt workflows are not redesigned or re-evaluated here; structure checks cover the full repository. Published GitHub content remains separate from colleagues' account installation.
+
+## Editorial update
+
+Add a local, attributed adaptation of blader/humanizer v3.1.0 at commit 225a6f39ac85f76ee48dbad772ea4abe4ed6c9d8, with its MIT licence. Require prose editing followed by an invariant check on numbers, mappings, sources, causal strength and uncertainty. Preserve the language and scenario-design contract; no external installation is required.
+
+Four additional independent fresh executions passed the reviewed checks: ka2-diversity, ka1-vet, conflict-higher-education and editorial-preservation. The last adds exact figures, targets, identifiers and a source link to test content preservation. The registry now contains seven cases; this update replays four relevant cases, not all seven. See observed-runs.md for raw excerpts, approximate lengths and hashes.
+
+The editorial pass improves professional readability; these tests do not validate AI detection, scientific effectiveness or funding quality. Interface metadata stays unchanged because the skill's identity, trigger and primary output remain the same. Creator validation, repository validation and diff whitespace checks pass.

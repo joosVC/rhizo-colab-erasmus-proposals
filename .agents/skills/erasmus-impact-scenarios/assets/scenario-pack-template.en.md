@@ -2,6 +2,8 @@
 
 Replace fields with real input or explicit open status. Remove irrelevant fields; retain consequential limitations. Budget 900–1,400 core words (maximum 1,700 without an explicit detailed-report request) plus a 300–600-word source annex. Treat the headings below as coverage prompts: combine paragraphs and avoid repeated qualifications. Default to the Dutch brief and English analysis below. This is an adaptable RHIZO format, not the official worksheet reproduced.
 
+Write the prompts as concrete prose with short tables where useful. Use labels and emphasis only when they help scanning; apply the skill's editorial pass before delivery. Retain the sources, IDs, qualifications and analytical structure through that pass.
+
 ## Bespreeknota voor het team
 
 [120–180 Dutch words: starting point; what is known/unknown; what the scenarios differ on; evidence/route limitations; the choice to discuss. State if missing science or future-year fit affects the options. Do not announce a selected project.]

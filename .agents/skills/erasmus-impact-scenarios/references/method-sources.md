@@ -18,3 +18,9 @@ The RHIZO adaptation adds alternative scenario cards, claim provenance, explicit
 Use only the underlying current call documents to establish formal requirements. These web URLs can change content; the method stays independent of a fixed call year. Do not hard-code amounts, deadlines, participant minima or funding percentages from them into a provisional impact scenario.
 
 Keep the National Agency's contribution logic while avoiding absolute claims about universal outcome timing or inability to observe long-term change. The early pack need not complete every monitoring or stakeholder field. It should remain sufficient to make a reasoned team choice.
+
+## Editorial source
+
+The local editorial pass adapts [blader/humanizer, SKILL.md](https://github.com/blader/humanizer/blob/225a6f39ac85f76ee48dbad772ea4abe4ed6c9d8/SKILL.md), version 3.1.0, at commit 225a6f39ac85f76ee48dbad772ea4abe4ed6c9d8. The upstream skill and its MIT licence were read on 2026-10-14. Retain [the licence](humanizer-license.txt).
+
+The adaptation preserves useful editorial checks and adds Erasmus-specific protection for claim provenance, causal assumptions, call-year limits, result mappings and quantities. It uses embedded final-output mode rather than exposing intermediate drafts. It does not add an auto-updating dependency, install a standalone plugin or promise AI-detector evasion. The upstream pattern list is editorial guidance, not a validated detector or scientific evidence assessment.

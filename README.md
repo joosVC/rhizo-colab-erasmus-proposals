@@ -12,9 +12,11 @@ Een gezamenlijke bron voor skills die collega's helpen Europese projecten te ont
 | Voorlopige impactscenario's / Theory of Change | Bespreekbare opties met veranderlogica, resultaten/activiteiten en aannames | Skill beschikbaar |
 | Keuzegesprek en verfijning | Gezamenlijk gekozen en aangepast impactontwerp | Met Joos, projecteigenaar en team |
 | PRP-screening | Overlap, aanvullingen en relevante expertise/partners | Na het verfijnde impactontwerp; skill later te bouwen |
-| Conceptnota en verdere uitwerking | Concrete projectstructuur, later planning en indicatoren | Later uit te werken |
+| Conceptnota en verdere uitwerking | Concrete projectstructuur en impact statement, later planning en indicatoren | Later uit te werken |
 
 Wetenschap en beleid kunnen deels parallel worden verkend. Het startinterview kan ook voor KA1 dienen; de impactskill heeft een aparte KA1-route. De wetenschaps- en beleidsskills zijn primair voor KA2 ontwikkeld. De KA1-route is een ontwerpstructuur, geen controle van alle actieregels.
+
+De toekomstige extended conceptnota krijgt naast de general objective een kort impact statement: één heldere zin over de gewenste verandering, voor wie en waarom, met een passende tijdshorizon en een geloofwaardige projectbijdrage. Die vervolgskill wordt nog ontworpen.
 
 ## Eerste skill: Erasmus+ startinterview
 
@@ -71,6 +73,8 @@ Start bijvoorbeeld met:
 Voeg de drie documenten toe. De skill levert een Nederlandse bespreeknota, Engelse scenariokaarten, een vergelijking, zichtbare aannames en maximaal vijf teamvragen. De bronnen blijven traceerbaar voor het latere schrijfwerk. Ontbreekt een rapport, dan blijft de uitwerking beperkt tot expliciet gemarkeerde hypotheses; een Elicit-prompt telt niet als onderzoeksrapport.
 
 De skill kiest geen consortium of budget en maakt nog geen volledige GANTT, conceptnota of indicatorenset. Na het gesprek wordt het gekozen ontwerp verfijnd; PRP-screening en expertiseverkenning volgen daarna. Een handboek, training of MOOC is geen automatische garantie voor impact of duurzaamheid.
+
+De impactskill voert vóór oplevering een [redactiestap](.agents/skills/erasmus-impact-scenarios/references/editorial-pass.md) uit, gebaseerd op [Humanizer](https://github.com/blader/humanizer). Die verwijdert lege contrasten, slogans, opgeblazen claims, herhaling en overbodige opmaak. Bronnen, cijfers, resultaatkoppelingen en onzekerheid blijven behouden. De lokale aanpassing bevat bronvermelding en de MIT-licentie; afzonderlijke installatie van Humanizer is niet nodig.
 
 De [scenariopack-template](.agents/skills/erasmus-impact-scenarios/assets/scenario-pack-template.en.md), [KA2-patronen](.agents/skills/erasmus-impact-scenarios/references/ka2-patterns.md), [KA1-patronen](.agents/skills/erasmus-impact-scenarios/references/ka1-patterns.md), [bronprotocol](.agents/skills/erasmus-impact-scenarios/references/evidence-protocol.md) en [gespreksleidraad](.agents/skills/erasmus-impact-scenarios/assets/team-discussion.nl.md) ondersteunen de uitvoering. Zie de [evaluatierubriek](evals/erasmus-impact-scenarios/rubric.md) en [validatie](evals/erasmus-impact-scenarios/validation.md) voor de controles en hun grenzen.
 
