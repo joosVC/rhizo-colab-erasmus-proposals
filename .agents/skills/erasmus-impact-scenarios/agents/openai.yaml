@@ -1,0 +1,4 @@
+interface:
+  display_name: "Erasmus+ impactscenario’s"
+  short_description: "Onderbouwde impactscenario’s voor het teamgesprek"
+  default_prompt: "Gebruik $erasmus-impact-scenarios met onze startnotitie, het Elicit-rapport en de beleidsscreening om voorlopige KA2-impactscenario’s voor ons teamgesprek te maken."

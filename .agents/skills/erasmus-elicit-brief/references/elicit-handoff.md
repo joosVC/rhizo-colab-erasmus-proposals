@@ -14,7 +14,7 @@ The skill delivers the prompt; the user executes it. Say: “De prompt is klaar;
 
 Retain the original research question/brief, run date, report and reference list; keep search/screening/extraction exports too if available and useful. They support later checking and discussion. The returned report ends the scientific exploration stage, but does not by itself establish that its claims are verified or select a project direction.
 
-Next: EU policy screening, discussion with Joos/project owner, then a provisional Theory of Change. PRP screening follows the ToC. These are agreed workflow stages, not claims that all those skills already exist. If a completed report arrives, do not restart the intake or automatically synthesize a ToC. Follow an explicit request to interpret it as a new task.
+Next: complete EU policy screening, then combine the practice account and both reports into provisional impact scenarios for discussion with Joos/project owner. The team chooses and refines a direction; PRP screening follows the refined impact design. The erasmus-impact-scenarios skill supports that synthesis as a separate task; PRP and concept-writing skills are not yet implemented. If a completed report arrives, do not restart the intake or automatically synthesize a ToC. Follow an explicit request to interpret it as a new task.
 
 ## Integration boundary
 

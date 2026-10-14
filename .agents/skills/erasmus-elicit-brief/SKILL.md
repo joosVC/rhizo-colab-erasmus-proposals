@@ -9,7 +9,7 @@ description: "Turn an Erasmus+ starting note and optional focused questions into
 
 Use a supplied startnotitie or equivalent account, plus any focused questions, to prepare scientific research that reveals the room for later project choices. Produce an English prompt for Elicit, not a scientific answer. Keep the conversation and short handoff in Dutch unless explicitly requested otherwise. Honour explicit output-language requests too.
 
-Support KA2 development without requiring a KA210/KA220 choice, budget, consortium, solution or completed Theory of Change. Use this sequence: starting interview → scientific exploration → EU policy screening → choice discussion → provisional Theory of Change → PRP screening. Science and policy work may partly overlap; do not perform the later phases here.
+Support KA2 development without requiring a KA210/KA220 choice, budget, consortium, solution or completed Theory of Change. Use this sequence: starting interview → scientific exploration and EU policy screening → provisional impact scenarios → team choice and refinement → PRP screening. Science and policy work may partly overlap; do not perform the later phases here.
 
 Read [research protocol](references/research-protocol.md) before framing the task and [prompt template](assets/elicit-prompt-template.en.md) before writing the output. Read [Elicit handoff](references/elicit-handoff.md) before advising how to run it. Consult [examples](references/examples.md) for ambiguous starting points and [sources](references/method-sources.md) when explaining or maintaining the method.
 

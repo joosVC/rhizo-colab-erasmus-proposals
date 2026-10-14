@@ -39,7 +39,7 @@ State **Live scan**, **Document-only assessment** or **Partial live scan** accor
 
 Keep the distinction between a current opportunity, planned initiative, non-binding recommendation, empirical report and formal call rule visible. In a future-year assessment, put the provisional status in the opening summary and call-fit matrix, not only a footnote. Do not claim no new developments exist unless the documented search justifies that bounded statement.
 
-End with a short list of decisions/questions for Joos and the project owner. The next phase combines the practice account, scientific evidence and policy findings in a choice discussion before a provisional Theory of Change; PRP follows the ToC. Do not automatically start those phases or invent callable skills for them.
+End with a short list of decisions/questions for Joos and the project owner. The separate erasmus-impact-scenarios phase combines the practice account, scientific evidence and policy findings into provisional impact designs before the team choice meeting. The team refines a direction; PRP follows the refined design. Do not automatically start those phases or imply PRP/concept-writing skills already exist.
 
 Present the report in conversation by default. Create a requested file using the applicable file workflow. Do not publish the user's intake, research report or generated screening into the shared skill repo, transmit identifying pupil data in search queries, send messages or configure ongoing monitoring unless explicitly instructed. This skill requires readable documents and browsing for a live scan; if unavailable, deliver the useful partial assessment and state its limits without pretending research occurred.
 

@@ -1,6 +1,6 @@
 # RHIZO — Erasmus+ projectontwikkeling
 
-Een gezamenlijke bron voor skills die collega's helpen Europese projecten te ontwikkelen. Het startinterview verzamelt de praktijkvraag, de Elicit-skill bereidt wetenschappelijk onderzoek voor en de beleidsskill onderzoekt callaansluiting en Europese beleidskansen. De uitwerking richt zich voorlopig op KA2.
+Een gezamenlijke bron voor skills die collega's helpen Europese projecten te ontwikkelen. Het startinterview verzamelt de praktijkvraag, de Elicit-skill bereidt wetenschappelijk onderzoek voor en de beleidsskill onderzoekt callaansluiting en Europese beleidskansen. De vierde skill vertaalt die input naar voorlopige impactscenario's voor een teamgesprek. De ontwikkelroute richt zich op KA2; de impactskill ondersteunt ook KA1-mobiliteitsontwerp.
 
 ## Ontwikkelroute voor KA2
 
@@ -9,11 +9,12 @@ Een gezamenlijke bron voor skills die collega's helpen Europese projecten te ont
 | Startinterview | Deelbare startnotitie, bekende informatie en open vragen | Skill beschikbaar |
 | Wetenschappelijke verkenning | Engelse Elicit-opdracht → door gebruiker uitgevoerd onderzoeksrapport | Promptskill beschikbaar; uitvoering in Elicit |
 | Europese beleidsscreening | Onderbouwd beleidsrapport met callaansluiting, kansen en hiaten | Browsende skill beschikbaar |
-| Keuzegesprek | Gezamenlijk gekozen projectrichting | Met Joos en projecteigenaar |
-| Voorlopige Theory of Change | Veranderlogica, voorwaarden en aannames | Later uit te werken |
-| PRP-screening | Overlap, aanvullingen en relevante expertise/partners | Na de voorlopige ToC |
+| Voorlopige impactscenario's / Theory of Change | Bespreekbare opties met veranderlogica, resultaten/activiteiten en aannames | Skill beschikbaar |
+| Keuzegesprek en verfijning | Gezamenlijk gekozen en aangepast impactontwerp | Met Joos, projecteigenaar en team |
+| PRP-screening | Overlap, aanvullingen en relevante expertise/partners | Na het verfijnde impactontwerp; skill later te bouwen |
+| Conceptnota en verdere uitwerking | Concrete projectstructuur, later planning en indicatoren | Later uit te werken |
 
-Wetenschap en beleid kunnen deels parallel worden verkend. Het startinterview kan ook voor KA1 dienen; KA1-vervolgskills zijn nog niet ontwikkeld.
+Wetenschap en beleid kunnen deels parallel worden verkend. Het startinterview kan ook voor KA1 dienen; de impactskill heeft een aparte KA1-route. De wetenschaps- en beleidsskills zijn primair voor KA2 ontwikkeld. De KA1-route is een ontwerpstructuur, geen controle van alle actieregels.
 
 ## Eerste skill: Erasmus+ startinterview
 
@@ -57,13 +58,29 @@ Voor een live scan is browsing nodig. Zonder browsing doet de skill een duidelij
 
 De [bronregisters per calljaar](policy-sources/README.md) staan los van de instructies. De 2026-baseline verwijst naar de Guide, het oorspronkelijke AWP en de wijziging van april met vervangende bijlage. Metadata en geselecteerde passages zijn gecontroleerd; elke screening leest de relevante tekst opnieuw en controleert latere wijzigingen. De [bronregels](.agents/skills/erasmus-policy-scan/references/source-protocol.md), [rapporttemplate](.agents/skills/erasmus-policy-scan/assets/policy-report-template.en.md) en [validatienotitie](evals/erasmus-policy-scan/validation.md) beschrijven de aanpak en haar grenzen.
 
+## Vierde skill: voorlopige impactscenario's
+
+[Impactscenario's](.agents/skills/erasmus-impact-scenarios/SKILL.md) combineert de startnotitie, het uitgevoerde Elicit-onderzoek en de beleidsscreening. Het resultaat is een tastbare voorbereiding op het teamgesprek: meestal twee of drie inhoudelijk verschillende scenario's, met minder opties als de input dat rechtvaardigt.
+
+De structuur volgt de Nederlandse [Impact Tool Partnerschappen](https://www.erasmusplus.nl/impacttool-strategischepartnerschappen) voor KA2 en [Impact Tool Mobiliteit](https://www.erasmusplus.nl/impacttool-mobiliteit) voor KA1. Specifieke doelstellingen beschrijven veranderingen; resultaten en activiteiten ondersteunen die veranderingen. Bij KA2 helpt het patroon kennisontwikkeling → toepassing/capaciteitsopbouw → verankering/bredere benutting. Bij KA1 draait het om samenhangende voorbereiding, mobiliteit, reflectie, toepassing en verankering.
+
+Start bijvoorbeeld met:
+
+> Gebruik $erasmus-impact-scenarios. Hierbij onze startnotitie, het Elicit-rapport en de beleidsscreening. Maak voorlopige KA2-impactscenario's voor ons teamgesprek. KA210 of KA220 en budget zijn nog open.
+
+Voeg de drie documenten toe. De skill levert een Nederlandse bespreeknota, Engelse scenariokaarten, een vergelijking, zichtbare aannames en maximaal vijf teamvragen. De bronnen blijven traceerbaar voor het latere schrijfwerk. Ontbreekt een rapport, dan blijft de uitwerking beperkt tot expliciet gemarkeerde hypotheses; een Elicit-prompt telt niet als onderzoeksrapport.
+
+De skill kiest geen consortium of budget en maakt nog geen volledige GANTT, conceptnota of indicatorenset. Na het gesprek wordt het gekozen ontwerp verfijnd; PRP-screening en expertiseverkenning volgen daarna. Een handboek, training of MOOC is geen automatische garantie voor impact of duurzaamheid.
+
+De [scenariopack-template](.agents/skills/erasmus-impact-scenarios/assets/scenario-pack-template.en.md), [KA2-patronen](.agents/skills/erasmus-impact-scenarios/references/ka2-patterns.md), [KA1-patronen](.agents/skills/erasmus-impact-scenarios/references/ka1-patterns.md), [bronprotocol](.agents/skills/erasmus-impact-scenarios/references/evidence-protocol.md) en [gespreksleidraad](.agents/skills/erasmus-impact-scenarios/assets/team-discussion.nl.md) ondersteunen de uitvoering. Zie de [evaluatierubriek](evals/erasmus-impact-scenarios/rubric.md) en [validatie](evals/erasmus-impact-scenarios/validation.md) voor de controles en hun grenzen.
+
 ## Taalkeuze
 
-De skillinstructies en methodische referenties zijn Engels. De gesprekken met docenten en startnotitie zijn standaard Nederlands; de Elicit-opdracht en het beleidsrapport zijn Engels. Het beleidsrapport begint met een Nederlandse beslissamenvatting. De latere conceptnota's en extended concept notes worden Engels; die vervolgskills zijn nog niet gebouwd. Expliciete taalkeuzes gaan voor deze defaults.
+De skillinstructies en methodische referenties zijn Engels. De gesprekken met docenten en startnotitie zijn standaard Nederlands; de Elicit-opdracht, het beleidsrapport en de analytische impactscenario's zijn Engels. Het beleidsrapport en het scenariopakket beginnen met een Nederlandse beslissamenvatting/bespreeknota. De latere conceptnota's en extended concept notes worden Engels; die vervolgskills zijn nog niet gebouwd. Expliciete taalkeuzes gaan voor deze defaults.
 
 ## Gebruik
 
-Open deze repository in een Codex-omgeving die lokale skills ondersteunt. Alle drie de skills staan onder `.agents/skills/`.
+Open deze repository in een Codex-omgeving die lokale skills ondersteunt. Alle vier de skills staan onder `.agents/skills/`.
 
 Start bijvoorbeeld met:
 

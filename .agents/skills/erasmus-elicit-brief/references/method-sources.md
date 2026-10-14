@@ -16,4 +16,4 @@ Checked 2026-10-14. These sources support the design, not claims about particula
 
 ## RHIZO design choices
 
-The two-track established/emerging search, bounded adjacent-field exploration, flexible shortlist and science/policy/choice/ToC/PRP sequence are agreed project-development choices. They are not mandatory Erasmus+ assessment criteria or guarantees of funding. Novelty, evidence confidence, adoption and contextual relevance are separate judgments.
+The two-track established/emerging search, bounded adjacent-field exploration, flexible shortlist and science/policy → provisional impact scenarios → team choice/refinement → PRP sequence are agreed project-development choices. They are not mandatory Erasmus+ assessment criteria or guarantees of funding. Novelty, evidence confidence, adoption and contextual relevance are separate judgments.
