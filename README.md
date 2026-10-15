@@ -18,6 +18,8 @@ Wetenschap en beleid kunnen deels parallel worden verkend. Het startinterview ka
 
 De toekomstige extended conceptnota krijgt naast de general objective een kort impact statement: één heldere zin over de gewenste verandering, voor wie en waarom, met een passende tijdshorizon en een geloofwaardige projectbijdrage. Die vervolgskill wordt nog ontworpen.
 
+Voor de KA1-route is er een [werktemplate voor de extended conceptnota](docs/design/ka1-extended-concept-template.en.md), gebaseerd op de vraagstructuur van de RHIZO3-KA122-aanvraag. De noodzakelijke extra capaciteitsinput blijft beperkt tot aantallen en profielen van leerlingen/personeel; beschikbare dagen en andere logistiek zijn in deze fase optioneel. De template koppelt doelstellingen aan leeractiviteiten, evaluatie en verankering. Het aantal activiteiten volgt het ontwerp. Dit is een ontwerpdocument voor de vervolgskill, geen vijfde uitvoerbare skill of volledige aanvraagtemplate.
+
 ## Eerste skill: Erasmus+ startinterview
 
 Het [startinterview](.agents/skills/erasmus-startinterview/SKILL.md) begeleidt een docent of klein groepje collega's in het Nederlands. Het gesprek vertrekt vanuit een behoefte, interesse, mogelijke oplossing of inspirerend bestaand project. Richttijd: 15–20 minuten, aanpasbaar aan de beschikbare tijd.
