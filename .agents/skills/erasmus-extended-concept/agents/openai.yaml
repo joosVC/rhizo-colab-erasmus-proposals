@@ -1,0 +1,4 @@
+interface:
+  display_name: "Erasmus+ extended conceptnota"
+  short_description: "Werk een gekozen KA1- of KA2-impactontwerp uit"
+  default_prompt: "Gebruik $erasmus-extended-concept om ons gekozen impactontwerp en de teamkeuzes uit te werken tot een Engelse extended conceptnota."

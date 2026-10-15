@@ -1,6 +1,6 @@
 # RHIZO — Erasmus+ projectontwikkeling
 
-Een gezamenlijke bron voor skills die collega's helpen Europese projecten te ontwikkelen. Het startinterview verzamelt de praktijkvraag, de Elicit-skill bereidt wetenschappelijk onderzoek voor en de beleidsskill onderzoekt callaansluiting en Europese beleidskansen. De vierde skill vertaalt die input naar voorlopige impactscenario's voor een teamgesprek. De ontwikkelroute richt zich op KA2; de impactskill ondersteunt ook KA1-mobiliteitsontwerp.
+Een gezamenlijke bron voor skills die collega's helpen Europese projecten te ontwikkelen. Het startinterview verzamelt de praktijkvraag, de Elicit-skill bereidt wetenschappelijk onderzoek voor en de beleidsskill onderzoekt callaansluiting en Europese beleidskansen. De vierde skill vertaalt die input naar voorlopige impactscenario's voor een teamgesprek. De vijfde werkt het gekozen ontwerp uit tot een extended conceptnota voor KA1 of KA2. De wetenschaps- en beleidsskills richten zich primair op KA2.
 
 ## Ontwikkelroute voor KA2
 
@@ -12,13 +12,12 @@ Een gezamenlijke bron voor skills die collega's helpen Europese projecten te ont
 | Voorlopige impactscenario's / Theory of Change | Bespreekbare opties met veranderlogica, resultaten/activiteiten en aannames | Skill beschikbaar |
 | Keuzegesprek en verfijning | Gezamenlijk gekozen en aangepast impactontwerp | Met Joos, projecteigenaar en team |
 | PRP-screening | Overlap, aanvullingen en relevante expertise/partners | Na het verfijnde impactontwerp; skill later te bouwen |
-| Conceptnota en verdere uitwerking | Concrete projectstructuur en impact statement, later planning en indicatoren | Later uit te werken |
+| Extended conceptnota | Concrete projectstructuur, impact statement, consortium/activiteiten en hoofdindicatoren | Skill beschikbaar |
+| Volledige aanvraag en uitvoeringsontwerp | Gedetailleerde planning, begroting en meetinstrumenten | Later uit te werken |
 
-Wetenschap en beleid kunnen deels parallel worden verkend. Het startinterview kan ook voor KA1 dienen; de impactskill heeft een aparte KA1-route. De wetenschaps- en beleidsskills zijn primair voor KA2 ontwikkeld. De KA1-route is een ontwerpstructuur, geen controle van alle actieregels.
+Wetenschap en beleid kunnen deels parallel worden verkend. Het startinterview kan ook voor KA1 dienen; de impactskill heeft een aparte KA1-route. De wetenschaps- en beleidsskills zijn primair voor KA2 ontwikkeld. De KA1-route van de impactskill is een ontwerpstructuur, geen controle van alle actieregels.
 
-De toekomstige extended conceptnota krijgt naast de general objective een kort impact statement: één heldere zin over de gewenste verandering, voor wie en waarom, met een passende tijdshorizon en een geloofwaardige projectbijdrage. Die vervolgskill wordt nog ontworpen.
-
-Voor de KA1-route is er een [werktemplate voor de extended conceptnota](docs/design/ka1-extended-concept-template.en.md), gebaseerd op de vraagstructuur van de RHIZO3-KA122-aanvraag. De noodzakelijke extra capaciteitsinput blijft beperkt tot aantallen en profielen van leerlingen/personeel; beschikbare dagen en andere logistiek zijn in deze fase optioneel. De template koppelt doelstellingen aan leeractiviteiten, evaluatie en verankering. Het aantal activiteiten volgt het ontwerp. Dit is een ontwerpdocument voor de vervolgskill, geen vijfde uitvoerbare skill of volledige aanvraagtemplate.
+De extended conceptnota werkt een gekozen en verfijnd impactontwerp uit. Ze bevat een general objective en een kort impact statement over de gewenste verandering, voor wie en waarom. De oorspronkelijke onderzoeksrapporten blijven de onderbouwing voor het verdere schrijfwerk.
 
 ## Eerste skill: Erasmus+ startinterview
 
@@ -80,13 +79,31 @@ De impactskill voert vóór oplevering een [redactiestap](.agents/skills/erasmus
 
 De [scenariopack-template](.agents/skills/erasmus-impact-scenarios/assets/scenario-pack-template.en.md), [KA2-patronen](.agents/skills/erasmus-impact-scenarios/references/ka2-patterns.md), [KA1-patronen](.agents/skills/erasmus-impact-scenarios/references/ka1-patterns.md), [bronprotocol](.agents/skills/erasmus-impact-scenarios/references/evidence-protocol.md) en [gespreksleidraad](.agents/skills/erasmus-impact-scenarios/assets/team-discussion.nl.md) ondersteunen de uitvoering. Zie de [evaluatierubriek](evals/erasmus-impact-scenarios/rubric.md) en [validatie](evals/erasmus-impact-scenarios/validation.md) voor de controles en hun grenzen.
 
+## Vijfde skill: extended conceptnota voor KA1 en KA2
+
+[Extended conceptnota](.agents/skills/erasmus-extended-concept/SKILL.md) gebruikt het gekozen impactontwerp, de teamkeuzes en de beschikbare startnotitie, wetenschappelijke verkenning en beleidsscreening. Het gesprek en een korte beslissamenvatting zijn Nederlands; de conceptnota is Engels, tenzij anders gevraagd.
+
+Voor **KA2** werkt de skill het ideale consortium uit vóór partnerwerving. Ze verbindt vier RHIZO-doelstellingsfuncties met werkpakketten of activiteitclusters en een beperkt aantal deelbare resultaten. Normaal leidt iedere kennispartner één resultaat. Per resultaat staan de belangrijkste kwalitatieve verandering, een haalbare meetrichting en voorlopige kwantiteit. De budgetverdeling en pilotranges zijn herkenbaar interne heuristieken. Geen verplichte SKAV, verzonnen effectpercentages of volledige indicatorenlijst.
+
+Voor **KA1** vertrekt de skill van de schoolbehoefte, aantallen en profielen van deelnemers. Ze werkt samenhangende leeractiviteiten, evaluatie, toepassing en verankering uit. Beschikbare dagen, bestemmingen en concrete hosts blijven optioneel. De eerste route richt zich op KA122-SCH/VET met doorgaans een voorgestelde duur van twaalf maanden; accreditatie en toepasselijke actieregels worden apart gecontroleerd.
+
+Start bijvoorbeeld met:
+
+> Gebruik $erasmus-extended-concept. Hierbij ons gekozen impactontwerp, de teamkeuzes en de bronrapporten. Werk dit uit voor KA220-SCH met €250.000. Ontwerp eerst de ideale partnerprofielen; partners zijn nog niet bevestigd.
+
+Of:
+
+> Gebruik $erasmus-extended-concept voor KA1. Hierbij ons gekozen leerontwerp. De school kan maximaal zestien leerlingen van 14–16 jaar en zes docenten betrekken; vakken en rollen staan hieronder. Dagen en bestemmingen zijn nog open.
+
+De skill levert een bespreekbaar voorstel met zichtbare aannames en maximaal vijf prioritaire beslissingen. Ze voert geen brede nieuwe research/PRP-scan uit, werft geen partners en maakt geen volledige aanvraag, gedetailleerde begroting of GANTT. De [KA2-template](.agents/skills/erasmus-extended-concept/assets/ka2-concept-template.en.md), [KA1-template](.agents/skills/erasmus-extended-concept/assets/ka1-concept-template.en.md), [consortiumrichtlijnen](.agents/skills/erasmus-extended-concept/references/ka2-consortium.md), [indicatorenrichtlijnen](.agents/skills/erasmus-extended-concept/references/principal-indicators.md) en [broncontroles](.agents/skills/erasmus-extended-concept/references/sources-and-rules.md) ondersteunen de uitvoering. De redactiestap bevat dezelfde lokale Humanizer-aanpassing met bronvermelding en MIT-licentie als de impactskill. Zie de [evaluatiecriteria](evals/erasmus-extended-concept/rubric.md) en [validatie](evals/erasmus-extended-concept/validation.md) voor de uitgevoerde controles en hun grenzen.
+
 ## Taalkeuze
 
-De skillinstructies en methodische referenties zijn Engels. De gesprekken met docenten en startnotitie zijn standaard Nederlands; de Elicit-opdracht, het beleidsrapport en de analytische impactscenario's zijn Engels. Het beleidsrapport en het scenariopakket beginnen met een Nederlandse beslissamenvatting/bespreeknota. De latere conceptnota's en extended concept notes worden Engels; die vervolgskills zijn nog niet gebouwd. Expliciete taalkeuzes gaan voor deze defaults.
+De skillinstructies en methodische referenties zijn Engels. De gesprekken met docenten en startnotitie zijn standaard Nederlands; de Elicit-opdracht, het beleidsrapport en de analytische impactscenario's zijn Engels. Het beleidsrapport en het scenariopakket beginnen met een Nederlandse beslissamenvatting/bespreeknota. De extended conceptnota is standaard Engels; de volledige aanvraagfase is nog niet als skill gebouwd. Expliciete taalkeuzes gaan voor deze defaults.
 
 ## Gebruik
 
-Open deze repository in een Codex-omgeving die lokale skills ondersteunt. Alle vier de skills staan onder `.agents/skills/`.
+Open deze repository in een Codex-omgeving die lokale skills ondersteunt. Alle vijf de skills staan onder `.agents/skills/`.
 
 Start bijvoorbeeld met:
 
